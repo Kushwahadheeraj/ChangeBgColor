@@ -18,6 +18,7 @@ const startChangingColor=function(){
 }
 const stopChangingColor=function(){
     clearInterval(intervalId)  
+    intervalId=null;
 }
 
 document.querySelector('#start').addEventListener
